@@ -1,0 +1,11 @@
+{
+  "architectures": [
+    "My_Model_1"
+  ],
+  "hidden_size": 20,
+  "input_size": 10,
+  "model_type": "my_model",
+  "output_size": 5,
+  "torch_dtype": "float32",
+  "transformers_version": "4.30.0.dev0"
+}
