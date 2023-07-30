@@ -1,0 +1,18 @@
+{
+    "Token": "apO5yeojJ7DmlQt0N4byrg",
+    "business_flag": "nlpc",
+    "model_local_file_path": "/data/home/tingchenfu/AlpacaLora/code",
+    "exec_start_in_all_mpi_pods": true,
+    "host_num": 1,
+    "host_gpu_num": 8,
+    "cuda_version": "11.0",
+    "enable_rdma": false,
+    "image_full_name": "mirrors.tencent.com/tingchenfu/radi:latest",
+    "is_elasticity": true,
+    "keep_alive": true,
+    "enable_evicted_pulled_up": true,
+    "GPUName": "V100",
+    "init_cmd": "pip3 install -r requirements.txt",
+    "start_cmd": "sh finetune_zy.sh",
+    "readable_name": "reimpl_correct_tokenizer"
+}
